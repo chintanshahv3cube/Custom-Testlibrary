@@ -27,4 +27,9 @@ public class CustomTestMainActivity extends AppCompatActivity {
         Log.d("CustLib","TestBranch");
 
     }
+
+    private void test3Fun()
+    {
+
+    }
 }
