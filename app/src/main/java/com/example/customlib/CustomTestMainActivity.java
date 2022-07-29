@@ -3,6 +3,7 @@ package com.example.customlib;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Toast;
 
 public class CustomTestMainActivity extends AppCompatActivity {
@@ -21,4 +22,9 @@ public class CustomTestMainActivity extends AppCompatActivity {
 
     }
 
+    private void funTestMain()
+    {
+        Log.d("CustLib","TestBranch");
+
+    }
 }
