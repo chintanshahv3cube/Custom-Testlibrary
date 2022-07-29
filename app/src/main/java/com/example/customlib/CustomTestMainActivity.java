@@ -28,8 +28,6 @@ public class CustomTestMainActivity extends AppCompatActivity {
 
     }
 
-    private void test3Fun()
-    {
 
-    }
+
 }
