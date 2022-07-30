@@ -22,11 +22,7 @@ public class CustomTestMainActivity extends AppCompatActivity {
 
     }
 
-    private void funTestMain()
-    {
-        Log.d("CustLib","TestBranch");
 
-    }
 
 
 
