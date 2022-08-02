@@ -22,7 +22,13 @@ public class CustomTestMainActivity extends AppCompatActivity {
 
     }
 
-    private void MainFun(){
+
+    private void MainFun() {
+
+    }
+
+    private void TestFun()
+    {
 
     }
 
