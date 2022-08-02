@@ -22,15 +22,6 @@ public class CustomTestMainActivity extends AppCompatActivity {
 
     }
 
-    private void mainFun()
-    {
-        Log.d("Test","Test");
-    }
-    private void testFun()
-    {
-        Log.d("Test","Test");
-    }
-
 
 
 }
