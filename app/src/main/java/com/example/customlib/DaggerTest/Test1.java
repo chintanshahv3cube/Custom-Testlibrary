@@ -1,17 +1,16 @@
 package com.example.customlib.DaggerTest;
 
-
 import android.util.Log;
-import android.widget.Toast;
 
 import javax.inject.Inject;
 
-public class Test {
+public class Test1 {
     @Inject
-    Test() {
+    public Test1() {
     }
+
     public void testFun() {
 
-        Log.d("testFun","called");
+        Log.d("testFun11111111111111","called");
     }
 }
