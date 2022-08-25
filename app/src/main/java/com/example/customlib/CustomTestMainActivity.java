@@ -29,6 +29,12 @@ public class CustomTestMainActivity extends AppCompatActivity {
 
     private void TestFun()
     {
+        Toast.makeText(this, "This is Test", Toast.LENGTH_SHORT).show();
+    }
+
+
+    private void fun1()
+    {
 
     }
 
