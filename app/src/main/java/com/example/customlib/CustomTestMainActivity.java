@@ -6,6 +6,10 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.example.customlib.DaggerTest.DaggerTestInterFace;
+import com.example.customlib.DaggerTest.Test;
+import com.example.customlib.DaggerTest.TestInterFace;
+
 public class CustomTestMainActivity extends AppCompatActivity {
 
     @Override
@@ -16,6 +20,10 @@ public class CustomTestMainActivity extends AppCompatActivity {
         Toast.makeText(this, "main testing", Toast.LENGTH_SHORT).show();
 
         String data="testing";
+        TestInterFace component= DaggerTestInterFace.create();
+        Test testObj=component.getTest();
+        testObj.testFun();
+
 
 
 
